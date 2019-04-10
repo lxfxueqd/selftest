@@ -1,0 +1,57 @@
+[ 2019-04-03T22:55:39+08:00 ] ::1 /selftest/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+
+[ 2019-04-03T22:55:43+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+
+[ 2019-04-03T22:55:43+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+
+[ 2019-04-03T22:55:57+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+NOTIC: [8] Undefined variable: arr D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-04-03T22:55:58+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?8874
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002769s ]
+
+[ 2019-04-03T22:56:03+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+NOTIC: [8] Undefined variable: arr D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-04-03T22:56:04+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?3903
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+
+[ 2019-04-03T22:56:11+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002393s ]
+NOTIC: [8] Undefined variable: arr D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-04-03T22:56:17+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?4722
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+

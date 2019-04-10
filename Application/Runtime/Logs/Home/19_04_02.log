@@ -1,0 +1,862 @@
+[ 2019-04-02T00:02:00+08:00 ] ::1 /selftest/index.php/Home/Paper/paperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2019-04-02T00:02:02+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+
+[ 2019-04-02T00:02:05+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+
+[ 2019-04-02T00:02:10+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0081s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','高等数学','99','0','0','1','1','20190402000209','20190402000209')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','高等数学','99','0','0','1','1','20190402000209','20190402000209')
+
+[ 2019-04-02T00:11:40+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0104s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','高等数学','99','0','0','1','1','20190402001140','20190402001140')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','高等数学','99','0','0','1','1','20190402001140','20190402001140')
+
+[ 2019-04-02T00:12:09+08:00 ] ::1 /selftest/index.php/Home/Paper/paperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2019-04-02T00:12:14+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+
+[ 2019-04-02T00:12:19+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003133s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+
+[ 2019-04-02T00:20:33+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0097s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','Pythonyu','99','0','0','1','1','20190402002033','20190402002033')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','Pythonyu','99','0','0','1','1','20190402002033','20190402002033')
+
+[ 2019-04-02T00:26:06+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+
+[ 2019-04-02T00:27:08+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0086s ]
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','Pythonyu','99','0','0','1','1','20190402002708','20190402002708')
+ERR: 1062:Duplicate entry '2147483647' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','Pythonyu','99','0','0','1','1','20190402002708','20190402002708')
+
+[ 2019-04-02T00:29:25+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0100s ]
+SQL: UPDATE `st_exam_paper` SET `sep_paper_name`='Pythonyu',`sep_grade`='99',`sep_subject_id`='0',`sep_chapter_id`='0',`sep_type`='1',`sep_status`='1',`sep_create_time`='20190402002925',`sep_update_time`='20190402002925' WHERE `sep_paper_id` = 2147483647 [ RunTime:0.0050s ]
+
+[ 2019-04-02T00:29:28+08:00 ] ::1 /selftest/index.php/Home/Paper/paperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2019-04-02T00:29:40+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+
+[ 2019-04-02T00:29:44+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0085s ]
+SQL: UPDATE `st_exam_paper` SET `sep_paper_name`='高等数学',`sep_grade`='50',`sep_subject_id`='0',`sep_chapter_id`='0',`sep_type`='1',`sep_status`='1',`sep_create_time`='20190402002944',`sep_update_time`='20190402002944' WHERE `sep_paper_id` = 2147483647 [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0099s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','','86201904020029444602','20190402002944','20190402002944') [ RunTime:0.0021s ]
+
+[ 2019-04-02T00:30:11+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0086s ]
+SQL: UPDATE `st_exam_paper` SET `sep_paper_name`='高等数学',`sep_grade`='50',`sep_subject_id`='0',`sep_chapter_id`='0',`sep_type`='1',`sep_status`='1',`sep_create_time`='20190402003011',`sep_update_time`='20190402003011' WHERE `sep_paper_id` = 2147483647 [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0093s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','10','86201904020030118145','20190402003011','20190402003011') [ RunTime:0.0034s ]
+
+[ 2019-04-02T00:30:40+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0079s ]
+SQL: UPDATE `st_exam_paper` SET `sep_paper_name`='高等数学',`sep_grade`='50',`sep_subject_id`='0',`sep_chapter_id`='0',`sep_type`='1',`sep_status`='1',`sep_create_time`='20190402003040',`sep_update_time`='20190402003040' WHERE `sep_paper_id` = 2147483647 [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0096s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','10','86201904020030405270','20190402003040','20190402003040') [ RunTime:0.0032s ]
+
+[ 2019-04-02T00:32:12+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0097s ]
+SQL: UPDATE `st_exam_paper` SET `sep_paper_name`='高等数学',`sep_grade`='50',`sep_subject_id`='0',`sep_chapter_id`='0',`sep_type`='1',`sep_status`='1',`sep_create_time`='20190402003212',`sep_update_time`='20190402003212' WHERE `sep_paper_id` = 2147483647 [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0083s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','10','86201904020032129802','20190402003212','20190402003212') [ RunTime:0.0028s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402003212' WHERE `spn_paper_id` = '86201904020032129802' AND `spn_kind_id` = 10 [ RunTime:0.0023s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('11','10','86201904020032129802','20190402003212','20190402003212') [ RunTime:0.0020s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402003212' WHERE `spn_paper_id` = '86201904020032129802' AND `spn_kind_id` = 11 [ RunTime:0.0030s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('12','10','86201904020032129802','20190402003212','20190402003212') [ RunTime:0.0033s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402003212' WHERE `spn_paper_id` = '86201904020032129802' AND `spn_kind_id` = 12 [ RunTime:0.0022s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('13','2','86201904020032129802','20190402003212','20190402003212') [ RunTime:0.0019s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190402003212' WHERE `spn_paper_id` = '86201904020032129802' AND `spn_kind_id` = 13 [ RunTime:0.0024s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('14','2','86201904020032129802','20190402003212','20190402003212') [ RunTime:0.0020s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190402003212' WHERE `spn_paper_id` = '86201904020032129802' AND `spn_kind_id` = 14 [ RunTime:0.0022s ]
+
+[ 2019-04-02T00:33:10+08:00 ] ::1 /selftest/index.php/Home/Paper/Paper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002570s ]
+ERR: 非法操作:Paper
+
+[ 2019-04-02T00:33:42+08:00 ] ::1 /selftest/index.php/Home/Paper/Paper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002621s ]
+ERR: 非法操作:Paper
+
+[ 2019-04-02T00:34:50+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0154s ]
+SQL: UPDATE `st_exam_paper` SET `sep_paper_name`='高等数学',`sep_grade`='50',`sep_subject_id`='0',`sep_chapter_id`='0',`sep_type`='1',`sep_status`='1',`sep_create_time`='20190402003450',`sep_update_time`='20190402003450' WHERE `sep_paper_id` = 2147483647 [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0138s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','10','86201904020034508870','20190402003450','20190402003450') [ RunTime:0.0027s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402003450' WHERE `spn_paper_id` = '86201904020034508870' AND `spn_kind_id` = 10 [ RunTime:0.0041s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('11','10','86201904020034508870','20190402003450','20190402003450') [ RunTime:0.0081s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402003450' WHERE `spn_paper_id` = '86201904020034508870' AND `spn_kind_id` = 11 [ RunTime:0.0022s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('12','10','86201904020034508870','20190402003450','20190402003450') [ RunTime:0.0080s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402003450' WHERE `spn_paper_id` = '86201904020034508870' AND `spn_kind_id` = 12 [ RunTime:0.0040s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('13','2','86201904020034508870','20190402003450','20190402003450') [ RunTime:0.0026s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190402003450' WHERE `spn_paper_id` = '86201904020034508870' AND `spn_kind_id` = 13 [ RunTime:0.0021s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('14','2','86201904020034508870','20190402003450','20190402003450') [ RunTime:0.0019s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190402003450' WHERE `spn_paper_id` = '86201904020034508870' AND `spn_kind_id` = 14 [ RunTime:0.0019s ]
+
+[ 2019-04-02T00:34:52+08:00 ] ::1 /selftest/index.php/Home/Paper/Paper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+ERR: 非法操作:Paper
+
+[ 2019-04-02T00:35:05+08:00 ] ::1 /selftest/index.php/Home/Paper/paperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2019-04-02T00:35:20+08:00 ] ::1 /selftest/index.php/Home/Paper/paperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2019-04-02T00:35:21+08:00 ] ::1 /selftest/index.php/Home/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2019-04-02T00:35:23+08:00 ] ::1 /selftest/index.php/Home/Question/EnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004397s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2019-04-02T00:36:59+08:00 ] ::1 /selftest/index.php/Home/Question/EnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2019-04-02T00:37:42+08:00 ] ::1 /selftest/index.php/Home/Paper/Paper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+ERR: 非法操作:Paper
+
+[ 2019-04-02T00:51:37+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperUpdate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 123 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+NOTIC: [8] Undefined index: paperName D:\XM\selftest\Application\Home\Controller\PaperController.class.php 第 124 行.
+
+[ 2019-04-02T01:09:56+08:00 ] ::1 /selftest/index.php/Home/Question/EnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009235s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2019-04-02T01:11:57+08:00 ] ::1 /selftest/index.php/Home/Question/doEnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002913s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\QuestionController.class.php on line 33 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0101s ]
+SQL: UPDATE `st_question_data` SET `sqd_kind_id`='10',`sqd_name`='1',`sqd_content`='下列哪种类型是Python的映射类型？',`sqd_optiona`='str',`sqd_optionb`='list',`sqd_optionc`='tuple',`sqd_optiond`='dict',`sqd_answer`='D',`sqd_create_time`='20190402011157',`sqd_update_time`='20190402011157' WHERE `sqd_question_id` = -239247218 [ RunTime:0.0007s ]
+
+[ 2019-04-02T01:12:26+08:00 ] ::1 /selftest/index.php/Home/Question/doEnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\QuestionController.class.php on line 33 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0093s ]
+SQL: INSERT INTO `st_question_data` (`sqd_question_id`,`sqd_kind_id`,`sqd_name`,`sqd_content`,`sqd_optiona`,`sqd_optionb`,`sqd_optionc`,`sqd_optiond`,`sqd_answer`,`sqd_create_time`,`sqd_update_time`) VALUES ('-239247149','10','1','下列哪种类型是Python的映射类型？','str','list','tuple','dict','D','20190402011226','20190402011226') [ RunTime:0.0034s ]
+
+[ 2019-04-02T01:12:26+08:00 ] ::1 /selftest/index.php/Home/Question/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+ERR: 非法操作:undefined
+
+[ 2019-04-02T01:12:42+08:00 ] ::1 /selftest/index.php/Home/Question/EnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2019-04-02T01:12:44+08:00 ] ::1 /selftest/index.php/Home/Question/doEnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\QuestionController.class.php on line 33 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0096s ]
+
+[ 2019-04-02T01:13:42+08:00 ] ::1 /selftest/index.php/Home/Question/EnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2019-04-02T01:13:47+08:00 ] ::1 /selftest/index.php/Home/Question/doEnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\QuestionController.class.php on line 33 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0122s ]
+SQL: INSERT INTO `st_question_data` (`sqd_question_id`,`sqd_kind_id`,`sqd_name`,`sqd_content`,`sqd_optiona`,`sqd_optionb`,`sqd_optionc`,`sqd_optiond`,`sqd_answer`,`sqd_create_time`,`sqd_update_time`) VALUES ('-239247020','10','2','
+下列哪种不是Python元组的定义方式？ ','选项1','选项2','选项3','选项4','A','20190402011347','20190402011347') [ RunTime:0.0030s ]
+
+[ 2019-04-02T01:13:47+08:00 ] ::1 /selftest/index.php/Home/Question/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+ERR: 非法操作:undefined
+
+[ 2019-04-02T01:15:13+08:00 ] ::1 /selftest/index.php/Home/Question/doEnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\QuestionController.class.php on line 33 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0100s ]
+SQL: INSERT INTO `st_question_data` (`sqd_question_id`,`sqd_kind_id`,`sqd_name`,`sqd_content`,`sqd_create_time`,`sqd_update_time`) VALUES ('-239246820','13','3','
+下列哪种不是Python元组的定义方式？ ','20190402011513','20190402011513') [ RunTime:0.0027s ]
+
+[ 2019-04-02T01:15:13+08:00 ] ::1 /selftest/index.php/Home/Question/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+ERR: 非法操作:undefined
+
+[ 2019-04-02T01:15:42+08:00 ] ::1 /selftest/index.php/Home/Question/doEnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\QuestionController.class.php on line 33 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0081s ]
+SQL: INSERT INTO `st_question_data` (`sqd_question_id`,`sqd_kind_id`,`sqd_name`,`sqd_content`,`sqd_create_time`,`sqd_update_time`) VALUES ('-239246817','13','4','
+下列哪种不是Python元组的定义方式？ ','20190402011542','20190402011542') [ RunTime:0.0028s ]
+
+[ 2019-04-02T01:15:42+08:00 ] ::1 /selftest/index.php/Home/Question/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+ERR: 非法操作:undefined
+
+[ 2019-04-02T01:15:56+08:00 ] ::1 /selftest/index.php/Home/Question/doEnterQuestion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\QuestionController.class.php on line 33 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0146s ]
+SQL: INSERT INTO `st_question_data` (`sqd_question_id`,`sqd_kind_id`,`sqd_name`,`sqd_content`,`sqd_create_time`,`sqd_update_time`) VALUES ('-239246811','13','4','
+下列哪种不是Python元组的定义方式？ ','20190402011556','20190402011556') [ RunTime:0.0041s ]
+
+[ 2019-04-02T01:15:56+08:00 ] ::1 /selftest/index.php/Home/Question/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+ERR: 非法操作:undefined
+
+[ 2019-04-02T19:33:09+08:00 ] ::1 /selftest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003078s ]
+
+[ 2019-04-02T21:35:54+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2019-04-02T23:25:57+08:00 ] ::1 /selftest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002502s ]
+
+[ 2019-04-02T23:26:00+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002417s ]
+
+[ 2019-04-02T23:58:52+08:00 ] ::1 /selftest/index.php/Home/Paper/dopaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004935s ]
+
+[ 2019-04-02T23:58:55+08:00 ] ::1 /selftest/index.php/Home/Paper/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001800s ]
+
+[ 2019-04-02T23:58:57+08:00 ] ::1 /selftest/index.php/Home/Paper/paperCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2019-04-02T23:59:05+08:00 ] ::1 /selftest/index.php/Home/Paper/paperCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002719s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2019-04-02T23:59:24+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0084s ]
+SQL: UPDATE `st_exam_paper` SET `sep_paper_name`='大数据基础',`sep_grade`='120',`sep_subject_id`='0',`sep_chapter_id`='0',`sep_type`='1',`sep_status`='1',`sep_create_time`='20190402235924',`sep_update_time`='20190402235924' WHERE `sep_paper_id` = 2147483647 [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0095s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','50','86201904022359249530','20190402235924','20190402235924') [ RunTime:0.0033s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402235924' WHERE `spn_paper_id` = '86201904022359249530' AND `spn_kind_id` = 10 [ RunTime:0.0036s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('11','10','86201904022359249530','20190402235924','20190402235924') [ RunTime:0.0034s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402235924' WHERE `spn_paper_id` = '86201904022359249530' AND `spn_kind_id` = 11 [ RunTime:0.0043s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('12','10','86201904022359249530','20190402235924','20190402235924') [ RunTime:0.0035s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190402235924' WHERE `spn_paper_id` = '86201904022359249530' AND `spn_kind_id` = 12 [ RunTime:0.0034s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('13','','86201904022359249530','20190402235924','20190402235924') [ RunTime:0.0036s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='',`spn_update_time`='20190402235924' WHERE `spn_paper_id` = '86201904022359249530' AND `spn_kind_id` = 13 [ RunTime:0.0040s ]
+

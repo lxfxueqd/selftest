@@ -1,0 +1,1798 @@
+[ 2019-04-10T21:14:43+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007639s ]
+
+[ 2019-04-10T21:15:01+08:00 ] ::1 /selftest/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `st_student_inf` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `st_student_inf` WHERE ( ssi_student_id = "1525111025" or ssi_username = "1525111025" ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `st_student_inf` SET `ssi_login_ip`='::1',`ssi_login_time`='19620906041645' WHERE `ssi_student_id` = 1525111025 [ RunTime:0.0021s ]
+
+[ 2019-04-10T21:15:02+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002696s ]
+
+[ 2019-04-10T21:15:02+08:00 ] ::1 /selftest/index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002562s ]
+
+[ 2019-04-10T21:16:03+08:00 ] ::1 /selftest/index.php/Home/Online/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003756s ]
+SQL: SHOW COLUMNS FROM `st_exam_inf` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_inf` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM st_exam_inf e LEFT JOIN st_exam_paper p on e.sei_paper_id = p.sep_paper_id  ORDER BY `sei_exam_id` desc LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2019-04-10T21:16:06+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+NOTIC: [8] Undefined index: p D:\XM\selftest\Application\Home\Controller\OnlineController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0140s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003729s ]
+
+[ 2019-04-10T21:16:12+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0130s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2019-04-10T21:16:15+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0135s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2019-04-10T21:16:21+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0143s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002234s ]
+
+[ 2019-04-10T21:16:24+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0125s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001504s ]
+
+[ 2019-04-10T21:16:31+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0150s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2019-04-10T21:16:40+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/contact.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0135s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2019-04-10T21:16:50+08:00 ] ::1 /selftest/index.php/Home/Question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_question_data` WHERE `sqd_teacher_id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `st_question_data` WHERE `sqd_teacher_id` = null ORDER BY `sqd_question_id` desc LIMIT 0,6   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011072s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011613s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2019-04-10T21:16:51+08:00 ] ::1 /selftest/index.php/Home/Question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_question_data` WHERE `sqd_teacher_id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `st_question_data` WHERE `sqd_teacher_id` = null ORDER BY `sqd_question_id` desc LIMIT 0,6   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008411s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009070s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2019-04-10T21:16:52+08:00 ] ::1 /selftest/index.php/Home/Question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0237s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_question_data` WHERE `sqd_teacher_id` = null LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `st_question_data` WHERE `sqd_teacher_id` = null ORDER BY `sqd_question_id` desc LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018899s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019240s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021245s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003555s ]
+
+[ 2019-04-10T21:16:55+08:00 ] ::1 /selftest/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2019-04-10T21:16:56+08:00 ] ::1 /selftest/index.php/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2019-04-10T21:16:58+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003087s ]
+
+[ 2019-04-10T21:17:05+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005138s ]
+
+[ 2019-04-10T21:17:14+08:00 ] ::1 /selftest/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000322s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `st_student_inf` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `st_student_inf` WHERE ( ssi_student_id = "1525111025" or ssi_username = "1525111025" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `st_student_inf` SET `ssi_login_ip`='::1',`ssi_login_time`='19620906042018' WHERE `ssi_student_id` = 1525111025 [ RunTime:0.0027s ]
+
+[ 2019-04-10T21:17:17+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003370s ]
+
+[ 2019-04-10T21:17:17+08:00 ] ::1 /selftest/index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002385s ]
+
+[ 2019-04-10T21:17:21+08:00 ] ::1 /selftest/index.php/Home/Online/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+SQL: SHOW COLUMNS FROM `st_exam_inf` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_inf` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM st_exam_inf e LEFT JOIN st_exam_paper p on e.sei_paper_id = p.sep_paper_id  ORDER BY `sei_exam_id` desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2019-04-10T21:21:06+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005047s ]
+NOTIC: [8] Undefined index: p D:\XM\selftest\Application\Home\Controller\OnlineController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0144s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_grade_detail` WHERE `sgd_exam_id` = '33201904080023049948' AND `sgd_question_id` = '2' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [2] Illegal string offset 'spq_question_id' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 143 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 143 行.
+NOTIC: [2] Illegal string offset 'sqd_kind_id' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 144 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 144 行.
+NOTIC: [2] Illegal string offset 'spq_number' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [2] Illegal string offset 'sqd_content' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [2] Illegal string offset 'sqd_optiona' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 149 行.
+NOTIC: [2] Illegal string offset 'sqd_optionb' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 150 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 150 行.
+NOTIC: [2] Illegal string offset 'sqd_optionc' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 151 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 151 行.
+NOTIC: [2] Illegal string offset 'sqd_optiond' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 152 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 152 行.
+NOTIC: [2] Illegal string offset 'answer' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [2] Illegal string offset 'sgd_answer' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [2] Illegal string offset 'sqd_kind_id' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 226 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 226 行.
+NOTIC: [2] Illegal string offset 'answer' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003335s ]
+
+[ 2019-04-10T21:21:09+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0149s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_grade_detail` WHERE `sgd_exam_id` = '33201904080023049948' AND `sgd_question_id` = '86201904062227454178' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `st_grade_detail` WHERE `sgd_exam_id` = '33201904080023049948' AND `sgd_question_id` = '86201904062227454178' AND `sgd_student_id` = 1525111025  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Home\Controller\OnlineController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017518s ]
+
+[ 2019-04-10T21:21:12+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0155s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_grade_detail` WHERE `sgd_exam_id` = '33201904080023049948' AND `sgd_question_id` = '2' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [2] Illegal string offset 'spq_question_id' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 143 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 143 行.
+NOTIC: [2] Illegal string offset 'sqd_kind_id' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 144 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 144 行.
+NOTIC: [2] Illegal string offset 'spq_number' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [2] Illegal string offset 'sqd_content' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [2] Illegal string offset 'sqd_optiona' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 149 行.
+NOTIC: [2] Illegal string offset 'sqd_optionb' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 150 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 150 行.
+NOTIC: [2] Illegal string offset 'sqd_optionc' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 151 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 151 行.
+NOTIC: [2] Illegal string offset 'sqd_optiond' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 152 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 152 行.
+NOTIC: [2] Illegal string offset 'answer' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [2] Illegal string offset 'sgd_answer' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [2] Illegal string offset 'sqd_kind_id' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 226 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 226 行.
+NOTIC: [2] Illegal string offset 'answer' D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005246s ]
+
+[ 2019-04-10T21:22:13+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008550s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0138s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_grade_detail` WHERE `sgd_exam_id` = '33201904080023049948' AND `sgd_question_id` = '2' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: spq_question_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 143 行.
+NOTIC: [8] Undefined index: sqd_kind_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 144 行.
+NOTIC: [8] Undefined index: spq_number D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Undefined index: sqd_content D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Undefined index: sqd_optiona D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 149 行.
+NOTIC: [8] Undefined index: sqd_optionb D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 150 行.
+NOTIC: [8] Undefined index: sqd_optionc D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 151 行.
+NOTIC: [8] Undefined index: sqd_optiond D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 152 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sqd_kind_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002717s ]
+
+[ 2019-04-10T21:22:16+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0148s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_grade_detail` WHERE `sgd_exam_id` = '33201904080023049948' AND `sgd_question_id` = '86201904062227454178' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `st_grade_detail` WHERE `sgd_exam_id` = '33201904080023049948' AND `sgd_question_id` = '86201904062227454178' AND `sgd_student_id` = 1525111025  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant answer - assumed 'answer' D:\XM\selftest\Application\Home\Controller\OnlineController.class.php 第 67 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Home\Controller\OnlineController.class.php 第 67 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: spq_question_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 143 行.
+NOTIC: [8] Undefined index: sqd_kind_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 144 行.
+NOTIC: [8] Undefined index: spq_number D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Undefined index: sqd_content D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Undefined index: sqd_optiona D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 149 行.
+NOTIC: [8] Undefined index: sqd_optionb D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 150 行.
+NOTIC: [8] Undefined index: sqd_optionc D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 151 行.
+NOTIC: [8] Undefined index: sqd_optiond D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 152 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sqd_kind_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002682s ]
+
+[ 2019-04-10T21:22:18+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009636s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0147s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_grade_detail` WHERE `sgd_exam_id` = '33201904080023049948' AND `sgd_question_id` = '2' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: spq_question_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 143 行.
+NOTIC: [8] Undefined index: sqd_kind_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 144 行.
+NOTIC: [8] Undefined index: spq_number D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Undefined index: sqd_content D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 146 行.
+NOTIC: [8] Undefined index: sqd_optiona D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 149 行.
+NOTIC: [8] Undefined index: sqd_optionb D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 150 行.
+NOTIC: [8] Undefined index: sqd_optionc D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 151 行.
+NOTIC: [8] Undefined index: sqd_optiond D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 152 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sqd_kind_id D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 226 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002633s ]
+
+[ 2019-04-10T21:23:11+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003028s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0180s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002943s ]
+
+[ 2019-04-10T21:23:15+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0135s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002443s ]
+
+[ 2019-04-10T21:23:18+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0147s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002215s ]
+
+[ 2019-04-10T21:23:23+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0140s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002547s ]
+
+[ 2019-04-10T21:23:25+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0134s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002313s ]
+
+[ 2019-04-10T21:23:30+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0133s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002410s ]
+
+[ 2019-04-10T21:23:33+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0133s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002574s ]
+
+[ 2019-04-10T21:24:21+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0127s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002383s ]
+
+[ 2019-04-10T21:24:27+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0126s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002372s ]
+
+[ 2019-04-10T21:25:26+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0147s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2019-04-10T21:25:30+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0163s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: sgd_answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003964s ]
+
+[ 2019-04-10T21:29:50+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0132s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002916s ]
+
+[ 2019-04-10T21:29:54+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003043s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0147s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003313s ]
+
+[ 2019-04-10T21:31:54+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003257s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0121s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003166s ]
+
+[ 2019-04-10T21:32:32+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0240s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003028s ]
+
+[ 2019-04-10T21:32:48+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003167s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0123s ]
+SQL: INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('2019','33201904080023049948','1525111025','N','20190410213247','20190410213247','B') [ RunTime:0.0022s ]
+
+[ 2019-04-10T21:32:52+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003833s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0137s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003132s ]
+
+[ 2019-04-10T21:32:56+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0133s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002984s ]
+
+[ 2019-04-10T21:33:00+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0156s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003712s ]
+
+[ 2019-04-10T22:37:43+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0130s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003488s ]
+
+[ 2019-04-10T22:37:48+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002711s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0155s ]
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410223747','20190410223747','通识选修课自测平台')
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410223747','20190410223747','通识选修课自测平台')
+
+[ 2019-04-10T22:38:44+08:00 ] ::1 /selftest/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined index: user D:\XM\selftest\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 59 行.
+NOTIC: [8] Undefined index: user D:\XM\selftest\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 63 行.
+NOTIC: [8] Undefined index: user D:\XM\selftest\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 112 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002608s ]
+
+[ 2019-04-10T22:42:26+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `st_grade_detail` WHERE `sgd_question_id` = '86201904062227454178' AND `sgd_exam_id` = '33201904080023049948' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224225','20190410224225','通识选修课自测更新')
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224225','20190410224225','通识选修课自测更新')
+
+[ 2019-04-10T22:43:01+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `st_grade_detail` WHERE `sgd_question_id` = '86201904062227454178' AND `sgd_exam_id` = '33201904080023049948' AND `sgd_student_id` = 1525111025  [ RunTime:0.0005s ]
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224300','20190410224300','通识选修课自测更新')
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224300','20190410224300','通识选修课自测更新')
+
+[ 2019-04-10T22:43:16+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `st_grade_detail` WHERE `sgd_question_id` = '86201904062227454178' AND `sgd_exam_id` = '33201904080023049948' AND `sgd_student_id` = 1525111025  [ RunTime:0.0005s ]
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224315','20190410224315','通识选修课自测更新')
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224315','20190410224315','通识选修课自测更新')
+
+[ 2019-04-10T22:43:54+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+NOTIC: [8] Undefined variable: subCounts D:\XM\selftest\Application\Home\Controller\OnlineController.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0128s ]
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224353','20190410224353','通识选修课自测更新')
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224353','20190410224353','通识选修课自测更新')
+
+[ 2019-04-10T22:44:00+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0131s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003201s ]
+
+[ 2019-04-10T22:44:03+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002702s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+NOTIC: [8] Undefined variable: subCounts D:\XM\selftest\Application\Home\Controller\OnlineController.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0127s ]
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224402','20190410224402','通识选修课自测平台')
+ERR: 1062:Duplicate entry '33201904080023049948-86201904062227454178-1525111025' for key 'sgd_exam_id'
+ [ SQL语句 ] : INSERT INTO `st_grade_detail` (`sgd_question_id`,`sgd_exam_id`,`sgd_student_id`,`sgd_status`,`sgd_create_time`,`sgd_update_time`,`sgd_answer`) VALUES ('86201904062227454178','33201904080023049948','1525111025','N','20190410224402','20190410224402','通识选修课自测平台')
+
+[ 2019-04-10T22:56:21+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004486s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_grade_detail` WHERE `sgd_question_id` = '86201904062227454178' AND `sgd_exam_id` = '33201904080023049948' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `st_grade_detail` SET `sgd_answer`='通识选修课自测平台更新操作',`sgd_update_time`='20190410225621' WHERE `sgd_question_id` = '86201904062227454178' AND `sgd_exam_id` = '33201904080023049948' AND `sgd_student_id` = 1525111025 [ RunTime:0.0024s ]
+
+[ 2019-04-10T22:56:26+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003505s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0143s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 0,1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2019-04-10T22:56:31+08:00 ] ::1 /selftest/index.php/Home/Online/upToNext.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\OnlineController.class.php on line 88 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_grade_detail` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_grade_detail` WHERE `sgd_question_id` = '2019' AND `sgd_exam_id` = '33201904080023049948' AND `sgd_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `st_grade_detail` SET `sgd_answer`='B',`sgd_update_time`='20190410225631' WHERE `sgd_question_id` = '2019' AND `sgd_exam_id` = '33201904080023049948' AND `sgd_student_id` = 1525111025 [ RunTime:0.0024s ]
+
+[ 2019-04-10T22:56:35+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003366s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = 1525111025 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0148s ]
+SQL: SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =1525111025  ORDER BY p.spq_number asc LIMIT 1,1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: answer D:\XM\selftest\Application\Runtime\Cache\Home\879dabd9148e875d55c7e297bb3ba71c.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004595s ]
+
+[ 2019-04-10T23:38:39+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = null LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `st_exam_flow` (`seg_exam_id`,`seg_student_id`,`seg_status`,`seg_start_time`) VALUES ('33201904080023049948',NULL,'1','20190410233838') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0170s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY p.spq_number asc LIMIT 1,1' at line 1
+ [ SQL语句 ] : SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =  ORDER BY p.spq_number asc LIMIT 1,1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY p.spq_number asc LIMIT 1,1' at line 1
+ [ SQL语句 ] : SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =  ORDER BY p.spq_number asc LIMIT 1,1  
+
+[ 2019-04-10T23:38:44+08:00 ] ::1 /selftest/index.php/Home/Online/exam/examId/33201904080023049948/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+SQL: SHOW COLUMNS FROM `st_exam_flow` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_exam_flow` WHERE `seg_exam_id` = '33201904080023049948' AND `seg_student_id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `st_exam_flow` (`seg_exam_id`,`seg_student_id`,`seg_status`,`seg_start_time`) VALUES ('33201904080023049948',NULL,'1','20190410233842') [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `st_paper_question` [ RunTime:0.0142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM st_paper_question q LEFT JOIN st_exam_inf e on q.spq_paper_id = e.sei_paper_id and e.sei_exam_id = 33201904080023049948  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0150s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY p.spq_number asc LIMIT 1,1' at line 1
+ [ SQL语句 ] : SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =  ORDER BY p.spq_number asc LIMIT 1,1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY p.spq_number asc LIMIT 1,1' at line 1
+ [ SQL语句 ] : SELECT * FROM st_question_data d JOIN st_paper_question p on d.sqd_question_id = p.spq_question_id JOIN st_exam_inf e on p.spq_paper_id = e.sei_paper_id and e.sei_exam_id =33201904080023049948 LEFT JOIN st_grade_detail g on g.sgd_exam_id = e.sei_exam_id and g.sgd_question_id = d.sqd_question_id and g.sgd_student_id =  ORDER BY p.spq_number asc LIMIT 1,1  
+
+[ 2019-04-10T23:39:03+08:00 ] ::1 /selftest/index.php/Home/Question/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+SQL: SHOW COLUMNS FROM `st_question_data` [ RunTime:0.0125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `st_question_data` WHERE `sqd_teacher_id` = 19001 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `st_question_data` WHERE `sqd_teacher_id` = 19001 ORDER BY `sqd_question_id` desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.013171s ]
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+NOTIC: [8] Undefined index: id D:\XM\selftest\Application\Runtime\Cache\Home\93ef6f4e0883454498eb7273983f50b5.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014393s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015175s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\XM\selftest\ThinkPHP\Library\Think\View.class.php:107) D:\XM\selftest\ThinkPHP\Library\Think\View.class.php 第 105 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006426s ]
+
+[ 2019-04-10T23:39:07+08:00 ] ::1 /selftest/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004873s ]
+
+[ 2019-04-10T23:39:09+08:00 ] ::1 /selftest/index.php/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2019-04-10T23:39:10+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007646s ]
+
+[ 2019-04-10T23:39:14+08:00 ] ::1 /selftest/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `st_student_inf` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `st_student_inf` WHERE ( ssi_student_id = "1525111025" or ssi_username = "1525111025" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `st_student_inf` SET `ssi_login_ip`='::1',`ssi_login_time`='19620906103018' WHERE `ssi_student_id` = 1525111025 [ RunTime:0.0021s ]
+
+[ 2019-04-10T23:39:16+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003552s ]
+
+[ 2019-04-10T23:39:16+08:00 ] ::1 /selftest/index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004628s ]
+

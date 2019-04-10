@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>倒计时 </title>
+    <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Shine coming soon Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates,
+         Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"/>
+    <script>
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <!-- Meta tags -->
+    <!--css Countdowntime-->
+    <link href="__PUBLIC__/css/simplyCountdown.theme.default.css" rel="stylesheet" type="text/css">
+    <!--css Countdowntime-->
+    <!--stylesheets-->
+    <link href="__PUBLIC__/css/style4.css" rel='stylesheet' type='text/css' media="all">
+    <!--//style sheet end here-->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+</head>
+<body>
+<div class="imges-position">
+    <div class="slider-couneter">
+        <h1 class="header-w3ls">
+            倒计时
+        </h1>
+    </div>
+    <!-- Slideshow 4 -->
+    <div class="slider">
+        <div class="callbacks_container">
+            <ul class="rslides" id="slider4">
+                <li>
+                    <div class="slider-img one-img">
+                        <div class="slider-info text-center">
+                            <div class="swm-right-w3ls">
+                                <h2> We'll Be Back Soon..!</h2>
+                                <div class="music-counter">
+                                    <div class="simply-countdown simply-countdown-one"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- This is here just to demonstrate the callbacks -->
+        <!-- <ul class="events">
+           <li>Example 4 callback events</li>
+           </ul>-->
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!--js working-->
+<script src='__PUBLIC__/js/jquery-2.2.3.min.js'></script>
+<!--//js working-->
+<!--responsiveslides banner-->
+<script src="__PUBLIC__/js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+        // Slideshow 4
+        $("#slider4").responsiveSlides({
+            auto: true,
+            pager:false,
+            nav:true ,
+            speed: 900,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+
+    });
+</script>
+<!--// responsiveslides banner-->
+<!--countdowntimer-js-->
+<script src="__PUBLIC__/js/simplyCountdown.js"></script>
+<script>
+    /**
+     * WARNING: I set this coundtown to be running until the end of times.
+     * So when you'll init the plugin, follow how it's done in plugin documentation.
+     */
+    var d = new Date();
+    d.setDate(d.getDate() +20);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
+    });
+</script>
+<!--//countdowntimer-js-->
+</body>
+</html>

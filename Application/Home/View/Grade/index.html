@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>在线考试列表</title>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-2.0.3.min.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/css/style.css">
+    <style>
+        table th{
+            border: solid 1px #00ffff;
+
+        }
+        table td{
+            border: solid 1px #00ffff;
+        }
+    </style>
+</head>
+<body>
+<h5>在线考试列表界面</h5>
+
+<div>
+    <table style="border: solid 1px #00ffff ">
+        <thead >
+        <tr >
+            <th width="10%">考试名称</th>
+            <th>试卷</th>
+            <th>开始时间</th>
+            <th>截止时间</th>
+            <th>考试时长</th>
+            <th width="6%">考试</th>
+        </tr>
+        </thead>
+        </tbody>
+            <?php foreach ($data as $key => $val): ?>
+            <tr>
+                <td>
+                    {$val.sei_exam_name}
+                </td>
+                <td>{$val.sep_paper_name}</td>
+                <td>{$val.sei_start_time}</td>
+                <td>{$val.sei_end_time}</td>
+                <td>{$val.sei_length}</td>
+                <td>
+                    <div class="">
+                        <a  class=""  href="{:U('Home/Online/exam', array('examId'=>$val['sei_exam_id']))}">
+                            <i class=""></i>
+                            进入考试
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            <?php endforeach ?>
+        </tbody>
+    </table>
+    <!-- 分页 -->
+    <div class="row-fluid">
+        <div class="page">{$page}</div>
+    </div>
+</div>
+<a href="{:U('Home/Exam/examCreate')}">考试创建</a>
+<a href="{:U('Home/Exam/index')}">返回考试界面</a>
+
+
+<p>
+    <a href="Index/index">返回首页</a>
+</p>
+`
+</html>

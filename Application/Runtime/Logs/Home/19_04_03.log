@@ -1,0 +1,460 @@
+[ 2019-04-03T00:00:25+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0080s ]
+SQL: INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('2147483647','大数据基础','120','0','0','1','1','20190403000025','20190403000025') [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0091s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','50','86201904030000257099','20190403000025','20190403000025') [ RunTime:0.0024s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403000025' WHERE `spn_paper_id` = '86201904030000257099' AND `spn_kind_id` = 10 [ RunTime:0.0021s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('11','10','86201904030000257099','20190403000025','20190403000025') [ RunTime:0.0027s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403000025' WHERE `spn_paper_id` = '86201904030000257099' AND `spn_kind_id` = 11 [ RunTime:0.0026s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('12','10','86201904030000257099','20190403000025','20190403000025') [ RunTime:0.0023s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403000025' WHERE `spn_paper_id` = '86201904030000257099' AND `spn_kind_id` = 12 [ RunTime:0.0020s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('13','','86201904030000257099','20190403000025','20190403000025') [ RunTime:0.0025s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='',`spn_update_time`='20190403000025' WHERE `spn_paper_id` = '86201904030000257099' AND `spn_kind_id` = 13 [ RunTime:0.0020s ]
+
+[ 2019-04-03T00:01:32+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0104s ]
+SQL: INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('86201904030001323778','大数据基础','120','0','0','1','1','20190403000132','20190403000132') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0106s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','50','86201904030001323778','20190403000132','20190403000132') [ RunTime:0.0025s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403000132' WHERE `spn_paper_id` = '86201904030001323778' AND `spn_kind_id` = 10 [ RunTime:0.0018s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('11','10','86201904030001323778','20190403000132','20190403000132') [ RunTime:0.0026s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403000132' WHERE `spn_paper_id` = '86201904030001323778' AND `spn_kind_id` = 11 [ RunTime:0.0017s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('12','10','86201904030001323778','20190403000132','20190403000132') [ RunTime:0.0024s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403000132' WHERE `spn_paper_id` = '86201904030001323778' AND `spn_kind_id` = 12 [ RunTime:0.0025s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('13','2','86201904030001323778','20190403000132','20190403000132') [ RunTime:0.0023s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190403000132' WHERE `spn_paper_id` = '86201904030001323778' AND `spn_kind_id` = 13 [ RunTime:0.0027s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('14','2','86201904030001323778','20190403000132','20190403000132') [ RunTime:0.0021s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190403000132' WHERE `spn_paper_id` = '86201904030001323778' AND `spn_kind_id` = 14 [ RunTime:0.0029s ]
+
+[ 2019-04-03T00:02:27+08:00 ] ::1 /selftest/index.php/Home/Exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2019-04-03T00:02:43+08:00 ] ::1 /selftest/index.php/Home/Paper/paperCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2019-04-03T00:02:51+08:00 ] ::1 /selftest/index.php/Home/Exam/examCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: questKind D:\XM\selftest\Application\Runtime\Cache\Home\a40e9450fcf869d6712ee9b6080f6728.php 第 15 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\XM\selftest\Application\Runtime\Cache\Home\a40e9450fcf869d6712ee9b6080f6728.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2019-04-03T21:53:31+08:00 ] ::1 /selftest/index.php/Home/Exam/examCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002161s ]
+
+[ 2019-04-03T21:54:27+08:00 ] ::1 /selftest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2019-04-03T21:54:30+08:00 ] ::1 /selftest/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2019-04-03T21:54:36+08:00 ] ::1 /selftest/index.php/Home/Login/dologin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\LoginController.class.php on line 24 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_teacher_inf` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `st_teacher_inf` WHERE ( sti_teacher_id = "19001" or sti_username = "19001" ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: UPDATE `st_teacher_inf` SET `sti_login_ip`='::1',`sti_login_time`='20190403215436' WHERE `sti_teacher_id` = 19001 [ RunTime:0.0025s ]
+
+[ 2019-04-03T21:54:36+08:00 ] ::1 /selftest/index.php/Home/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2019-04-03T21:54:42+08:00 ] ::1 /selftest/index.php/Home/Exam/examCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2019-04-03T21:56:45+08:00 ] ::1 /selftest/index.php/Home/Exam/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+ERR: 非法操作:doPaperCreate
+
+[ 2019-04-03T21:57:09+08:00 ] ::1 /selftest/index.php/Home/Exam/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+ERR: 非法操作:doPaperCreate
+
+[ 2019-04-03T21:57:11+08:00 ] ::1 /selftest/index.php/Home/Exam/examCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002008s ]
+
+[ 2019-04-03T21:57:13+08:00 ] ::1 /selftest/index.php/Home/Exam/doExamCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+ERR: 非法操作:doExamCreate
+
+[ 2019-04-03T21:58:01+08:00 ] ::1 /selftest/index.php/Home/Exam/doExamCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+ERR: 非法操作:doExamCreate
+
+[ 2019-04-03T21:58:03+08:00 ] ::1 /selftest/index.php/Home/Exam/examCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2019-04-03T21:58:04+08:00 ] ::1 /selftest/index.php/Home/Exam/doExamCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+ERR: 非法操作:doExamCreate
+
+[ 2019-04-03T21:58:45+08:00 ] ::1 /selftest/index.php/Home/Exam/examCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002310s ]
+
+[ 2019-04-03T21:58:47+08:00 ] ::1 /selftest/index.php/Home/Exam/doExamCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+ERR: 非法操作:doExamCreate
+
+[ 2019-04-03T21:59:03+08:00 ] ::1 /selftest/index.php/Home/Exam/doExamCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003639s ]
+ERR: 非法操作:doExamCreate
+
+[ 2019-04-03T21:59:46+08:00 ] ::1 /selftest/index.php/Home/Exam/doExamCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+
+[ 2019-04-03T21:59:49+08:00 ] ::1 /selftest/index.php/Home/Exam/examCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002716s ]
+SQL: SHOW COLUMNS FROM `st_question_kind` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `st_question_kind`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2019-04-03T21:59:50+08:00 ] ::1 /selftest/index.php/Home/Exam/doExamCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+
+[ 2019-04-03T22:20:08+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0112s ]
+SQL: INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_teacher_id`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('86201904032220087541','大数据基础','120','19001','0','0','1','1','20190403222008','20190403222008') [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0114s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','50','86201904032220087541','20190403222008','20190403222008') [ RunTime:0.0028s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403222008' WHERE `spn_paper_id` = '86201904032220087541' AND `spn_kind_id` = 10 [ RunTime:0.0030s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('11','10','86201904032220087541','20190403222008','20190403222008') [ RunTime:0.0023s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403222008' WHERE `spn_paper_id` = '86201904032220087541' AND `spn_kind_id` = 11 [ RunTime:0.0025s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('12','10','86201904032220087541','20190403222008','20190403222008') [ RunTime:0.0023s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403222008' WHERE `spn_paper_id` = '86201904032220087541' AND `spn_kind_id` = 12 [ RunTime:0.0030s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('13','2','86201904032220087541','20190403222008','20190403222008') [ RunTime:0.0032s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190403222008' WHERE `spn_paper_id` = '86201904032220087541' AND `spn_kind_id` = 13 [ RunTime:0.0025s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('14','2','86201904032220087541','20190403222008','20190403222008') [ RunTime:0.0027s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190403222008' WHERE `spn_paper_id` = '86201904032220087541' AND `spn_kind_id` = 14 [ RunTime:0.0030s ]
+
+[ 2019-04-03T22:20:51+08:00 ] ::1 /selftest/index.php/Home/Paper/doPaperCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Home\Controller\PaperController.class.php on line 32 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0085s ]
+SQL: INSERT INTO `st_exam_paper` (`sep_paper_id`,`sep_paper_name`,`sep_grade`,`sep_teacher_id`,`sep_subject_id`,`sep_chapter_id`,`sep_type`,`sep_status`,`sep_create_time`,`sep_update_time`) VALUES ('86201904032220515262','人工智能基础','120','19001','0','0','1','1','20190403222051','20190403222051') [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `st_paper_kind_num` [ RunTime:0.0091s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('10','50','86201904032220515262','20190403222051','20190403222051') [ RunTime:0.0032s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403222051' WHERE `spn_paper_id` = '86201904032220515262' AND `spn_kind_id` = 10 [ RunTime:0.0020s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('11','10','86201904032220515262','20190403222051','20190403222051') [ RunTime:0.0024s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403222051' WHERE `spn_paper_id` = '86201904032220515262' AND `spn_kind_id` = 11 [ RunTime:0.0022s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('12','10','86201904032220515262','20190403222051','20190403222051') [ RunTime:0.0025s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='1',`spn_update_time`='20190403222051' WHERE `spn_paper_id` = '86201904032220515262' AND `spn_kind_id` = 12 [ RunTime:0.0029s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('13','2','86201904032220515262','20190403222051','20190403222051') [ RunTime:0.0030s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190403222051' WHERE `spn_paper_id` = '86201904032220515262' AND `spn_kind_id` = 13 [ RunTime:0.0024s ]
+SQL: INSERT INTO `st_paper_kind_num` (`spn_kind_id`,`spn_counts`,`spn_paper_id`,`spn_create_time`,`spn_update_time`) VALUES ('14','2','86201904032220515262','20190403222051','20190403222051') [ RunTime:0.0026s ]
+SQL: UPDATE `st_paper_kind_num` SET `spn_grade`='5',`spn_update_time`='20190403222051' WHERE `spn_paper_id` = '86201904032220515262' AND `spn_kind_id` = 14 [ RunTime:0.0022s ]
+
+[ 2019-04-03T22:26:44+08:00 ] ::1 /selftest/index.php/Home/Exam/examCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: SHOW COLUMNS FROM `st_exam_paper` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `st_exam_paper` WHERE `sep_teacher_id` = 19001  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004240s ]
+

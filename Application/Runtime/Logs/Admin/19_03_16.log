@@ -1,0 +1,661 @@
+[ 2019-03-16T11:17:16+08:00 ] ::1 /selftest/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011691s ]
+
+[ 2019-03-16T11:17:19+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015753s ]
+
+[ 2019-03-16T11:17:20+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053220s ]
+
+[ 2019-03-16T11:17:29+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034896s ]
+
+[ 2019-03-16T11:17:30+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012534s ]
+
+[ 2019-03-16T11:17:38+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.057000s ]
+
+[ 2019-03-16T11:17:39+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025039s ]
+
+[ 2019-03-16T11:18:37+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005194s ]
+
+[ 2019-03-16T11:18:39+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.081711s ]
+INFO: [ app_init ] --END-- [ RunTime:0.150113s ]
+
+[ 2019-03-16T11:18:42+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005597s ]
+
+[ 2019-03-16T11:18:43+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+
+[ 2019-03-16T11:18:47+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004141s ]
+
+[ 2019-03-16T11:18:47+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004795s ]
+
+[ 2019-03-16T11:18:49+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036838s ]
+
+[ 2019-03-16T16:50:55+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+
+[ 2019-03-16T16:50:56+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+
+[ 2019-03-16T16:51:17+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+
+[ 2019-03-16T16:51:17+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+
+[ 2019-03-16T16:51:26+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+
+[ 2019-03-16T16:51:26+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+
+[ 2019-03-16T16:51:51+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+
+[ 2019-03-16T16:51:51+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+
+[ 2019-03-16T22:03:42+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003790s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Admin\Controller\LoginController.class.php on line 16 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+
+[ 2019-03-16T22:03:43+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?8641
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001919s ]
+
+[ 2019-03-16T22:03:50+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Admin\Controller\LoginController.class.php on line 16 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_admin_inf` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `st_admin_inf` WHERE ( sai_username = "admin" ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: UPDATE `st_admin_inf` SET `sai_login_ip`='::1',`sai_login_time`='1552745030' WHERE `sai_admin_id` = 1900000001 [ RunTime:0.0081s ]
+
+[ 2019-03-16T22:03:50+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?9807
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+
+[ 2019-03-16T22:03:50+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+
+[ 2019-03-16T22:07:06+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+
+[ 2019-03-16T22:08:22+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2019-03-16T22:08:33+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2019-03-16T22:09:04+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+
+[ 2019-03-16T22:09:32+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2019-03-16T22:10:44+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2019-03-16T22:11:43+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+
+[ 2019-03-16T22:13:56+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+
+[ 2019-03-16T22:14:20+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2019-03-16T22:15:50+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+
+[ 2019-03-16T22:15:57+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+
+[ 2019-03-16T22:16:10+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+
+[ 2019-03-16T22:16:56+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+
+[ 2019-03-16T22:17:24+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+
+[ 2019-03-16T22:18:51+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+
+[ 2019-03-16T22:19:02+08:00 ] 127.0.0.1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002416s ]
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001789s ]
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/bootstrap-responsive.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004052s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/ace-fonts.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/ace.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/jquery-ui-1.10.3.full.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056010s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/sucai.admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002644s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/datepicker.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/ace-extra.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery-1.10.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/ace-skins.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery-ui-1.10.3.full.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001218s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.ui.touch-punch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.mobile.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.050220s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/bootstrap-timepicker.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039922s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:04+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/sucai.global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018611s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/css/ace-responsive.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.dataTables.bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/sucai/sucai.global.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.dataTables.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001602s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.inputlimiter.1.3.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery-1.10.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:05+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.mobile.custom.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:06+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery-ui-1.10.3.full.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005942s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:06+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.ui.touch-punch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:06+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:06+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/ace-elements.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:06+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/ace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001727s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:06+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.dataTables.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:06+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.dataTables.bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:06+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/sucai/sucai.global.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:22:07+08:00 ] ::1 /selftest/index.php/Admin/Adminstyle/js/jquery.inputlimiter.1.3.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+ERR: 无法加载控制器:Adminstyle
+
+[ 2019-03-16T22:23:06+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+
+[ 2019-03-16T22:23:52+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003334s ]
+
+[ 2019-03-16T22:24:02+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+
+[ 2019-03-16T22:42:46+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2019-03-16T22:42:56+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002303s ]
+
+[ 2019-03-16T23:30:50+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+
+[ 2019-03-16T23:32:13+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2019-03-16T23:32:58+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+
+[ 2019-03-16T23:33:11+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+
+[ 2019-03-16T23:35:48+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+
+[ 2019-03-16T23:37:50+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+
+[ 2019-03-16T23:38:02+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+
+[ 2019-03-16T23:38:09+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+
+[ 2019-03-16T23:38:12+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+
+[ 2019-03-16T23:38:21+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2019-03-16T23:39:26+08:00 ] ::1 /selftest/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+
+[ 2019-03-16T23:39:33+08:00 ] ::1 /selftest/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2019-03-16T23:39:34+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2019-03-16T23:39:34+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001830s ]
+
+[ 2019-03-16T23:39:38+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2019-03-16T23:39:38+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+
+[ 2019-03-16T23:39:39+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2019-03-16T23:39:40+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+
+[ 2019-03-16T23:39:41+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2019-03-16T23:39:41+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+
+[ 2019-03-16T23:40:11+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+
+[ 2019-03-16T23:40:11+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+
+[ 2019-03-16T23:40:20+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+
+[ 2019-03-16T23:40:20+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+
+[ 2019-03-16T23:40:24+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Admin\Controller\LoginController.class.php on line 16 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+
+[ 2019-03-16T23:40:25+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?6551
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001659s ]
+
+[ 2019-03-16T23:43:22+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+
+[ 2019-03-16T23:43:22+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+
+[ 2019-03-16T23:43:29+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+
+[ 2019-03-16T23:43:29+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002284s ]
+
+[ 2019-03-16T23:43:36+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Admin\Controller\LoginController.class.php on line 16 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_admin_inf` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `st_admin_inf` WHERE ( sai_username = "admin" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `st_admin_inf` SET `sai_login_ip`='::1',`sai_login_time`='1552751016' WHERE `sai_admin_id` = 1900000001 [ RunTime:0.0032s ]
+
+[ 2019-03-16T23:43:36+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?9733
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2019-03-16T23:43:36+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+
+[ 2019-03-16T23:43:42+08:00 ] ::1 /selftest/index.php/Admin/Review/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 1146:Table 'selftest.users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `users`
+

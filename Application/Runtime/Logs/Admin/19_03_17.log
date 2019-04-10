@@ -1,0 +1,216 @@
+[ 2019-03-17T11:15:45+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+
+[ 2019-03-17T11:15:57+08:00 ] ::1 /selftest/index.php/Admin/Designer/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+ERR: 1146:Table 'selftest.users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `users`
+
+[ 2019-03-17T11:17:49+08:00 ] ::1 /selftest/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+ERR: 1146:Table 'selftest.users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `users`
+
+[ 2019-03-17T11:20:28+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+ERR: 1146:Table 'selftest.users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `users`
+
+[ 2019-03-17T11:21:59+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+ERR: 1146:Table 'selftest.st_users_inf' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `st_users_inf`
+
+[ 2019-03-17T11:22:16+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+
+[ 2019-03-17T11:22:21+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+
+[ 2019-03-17T11:23:10+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2019-03-17T11:23:16+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
+[ 2019-03-17T11:24:18+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+
+[ 2019-03-17T11:25:44+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001830s ]
+
+[ 2019-03-17T11:26:13+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+
+[ 2019-03-17T11:26:39+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2019-03-17T11:27:00+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+
+[ 2019-03-17T11:27:50+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001819s ]
+
+[ 2019-03-17T11:28:49+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+
+[ 2019-03-17T11:29:28+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+
+[ 2019-03-17T11:30:06+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+
+[ 2019-03-17T11:31:14+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+
+[ 2019-03-17T11:33:31+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2019-03-17T12:33:45+08:00 ] ::1 /selftest/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+ERR: 1146:Table 'selftest.users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `users`
+
+[ 2019-03-17T12:37:48+08:00 ] ::1 /selftest/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+
+[ 2019-03-17T12:37:51+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 1054:Unknown column 'st_admin_id' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `st_admin_inf` ORDER BY `st_admin_id` desc LIMIT 0,20  
+
+[ 2019-03-17T12:38:20+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+
+[ 2019-03-17T15:07:12+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003228s ]
+
+[ 2019-03-17T15:16:06+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+
+[ 2019-03-17T15:16:23+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2019-03-17T15:16:26+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+
+[ 2019-03-17T15:16:58+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000457s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002770s ]
+
+[ 2019-03-17T15:17:16+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+
+[ 2019-03-17T15:18:34+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+
+[ 2019-03-17T15:18:47+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+
+[ 2019-03-17T22:42:40+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+ERR: 1146:Table 'selftest.users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `users`
+
+[ 2019-03-17T23:26:07+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+
+[ 2019-03-17T23:37:37+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+ERR: 无法加载控制器:Student
+
+[ 2019-03-17T23:37:44+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001631s ]
+
+[ 2019-03-17T23:37:46+08:00 ] ::1 /selftest/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+
+[ 2019-03-17T23:37:49+08:00 ] ::1 /selftest/index.php/Admin/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+
+[ 2019-03-17T23:37:51+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001679s ]
+ERR: 无法加载控制器:Student
+
+[ 2019-03-17T23:39:18+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+

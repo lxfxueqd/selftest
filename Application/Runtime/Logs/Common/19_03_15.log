@@ -1,0 +1,897 @@
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001508s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001490s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001330s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:39+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:40+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002059s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:40+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:40+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002590s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:40+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056348s ]
+
+[ 2019-03-15T21:05:40+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:40+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:40+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:05:40+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005105s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049189s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006150s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:35+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002674s ]
+
+[ 2019-03-15T21:07:36+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:36+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002626s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:36+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002308s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:36+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:36+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003204s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:36+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:36+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001149s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001965s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002499s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003410s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008402s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:43+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003091s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:07:44+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036279s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028740s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001294s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005466s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003421s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004320s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002518s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:13+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:29+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000773s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003873s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:29+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022906s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:29+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:29+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002917s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:29+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001612s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:29+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000302s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004730s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:29+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003845s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:29+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049264s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002714s ]
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004394s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002073s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002443s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001957s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003798s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:08:30+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002529s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017712s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011325s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001450s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:54+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+
+[ 2019-03-15T21:09:59+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:59+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:59+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:59+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:59+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:59+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:59+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:09:59+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:18+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:18+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:18+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:18+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:18+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:18+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028488s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:18+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018971s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:18+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006927s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.062620s ]
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002913s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002782s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027461s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003106s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:19+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:54+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:54+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002605s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:54+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:54+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001645s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002446s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001648s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008650s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:10:55+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004416s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:25+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:25+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043341s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:25+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002386s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:25+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:25+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:25+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003934s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:25+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003386s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020116s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/img/borrow_log_600x600.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008555s ]
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/css/bootstrap.min.css-v=3.3.5.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002414s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/css/plugins/iCheck/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/css/plugins/fullcalendar/fullcalendar.print.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/css/plugins/dataTables/dataTables.bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+ERR: 无法加载模块:Public
+
+[ 2019-03-15T21:11:26+08:00 ] ::1 /selftest/Public/css/plugins/morris/morris-0.4.3.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.css">
+</head>
+<body>
+
+<div class="st-hd st-left">
+   <div class="st-hd-0">
+       <div class="st-hd-logo">
+           <a id="st-logo-img"></a><span>通识选修课自测平台</span>
+       </div>
+       <div class="st-hd-login">
+           <div class="st-hd-login-0">
+               <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+               <a href="{:U('Home/Index/login')}">登录</a><span>|</span>
+               <a href="{:U('Home/Index/register')}">注册</a>
+           </div>
+       </div>
+   </div>
+</div>
+<div class="st-body st-left">
+    <p>
+        <h4><a href="{:U('Home/Paper/index')}" style="color: black;">跳转试卷首页</a></h4>
+    </p>
+    <!--<img id="st-body-bg" src="__PUBLIC__/image/bg2.png">-->
+</div>
+<div class="st-footer">
+    <div class="st-copyright">Copyright © liangxingfang  All Rights Reversed</div>
+</div>
+</body>
+</html>

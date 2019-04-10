@@ -1,0 +1,45 @@
+[ 2019-04-10T21:15:20+08:00 ] ::1 /selftest/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2019-04-10T21:15:23+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+
+[ 2019-04-10T21:15:24+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002832s ]
+
+[ 2019-04-10T21:15:33+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Admin\Controller\LoginController.class.php on line 16 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_admin_inf` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `st_admin_inf` WHERE ( sai_username = "admin" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `st_admin_inf` SET `sai_login_ip`='::1',`sai_login_time`='1554902133' WHERE `sai_admin_id` = 1900000001 [ RunTime:0.0021s ]
+
+[ 2019-04-10T21:15:33+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?4634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+
+[ 2019-04-10T21:15:34+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2019-04-10T21:36:09+08:00 ] ::1 /selftest/index.php/Admin/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+

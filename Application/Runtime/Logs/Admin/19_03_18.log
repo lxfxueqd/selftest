@@ -1,0 +1,82 @@
+[ 2019-03-18T00:11:38+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+
+[ 2019-03-18T00:13:11+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+
+[ 2019-03-18T00:23:29+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+
+[ 2019-03-18T00:29:14+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002385s ]
+
+[ 2019-03-18T00:29:19+08:00 ] ::1 /selftest/index.php/Admin/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+
+[ 2019-03-18T00:31:16+08:00 ] ::1 /selftest/index.php/Admin/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+
+[ 2019-03-18T00:31:19+08:00 ] ::1 /selftest/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载控制器:News
+
+[ 2019-03-18T00:31:35+08:00 ] ::1 /selftest/index.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+ERR: 无法加载控制器:Exam
+
+[ 2019-03-18T00:44:11+08:00 ] ::1 /selftest/index.php/Admin/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+
+[ 2019-03-18T00:44:13+08:00 ] ::1 /selftest/index.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2019-03-18T00:54:01+08:00 ] ::1 /selftest/index.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2019-03-18T00:54:02+08:00 ] ::1 /selftest/index.php/Admin/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+
+[ 2019-03-18T00:54:04+08:00 ] ::1 /selftest/index.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+
+[ 2019-03-18T00:54:05+08:00 ] ::1 /selftest/index.php/Admin/Test/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+
+[ 2019-03-18T00:54:11+08:00 ] ::1 /selftest/index.php/Admin/Grade/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+
+[ 2019-03-18T00:55:18+08:00 ] ::1 /selftest/index.php/Admin/Grade/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+

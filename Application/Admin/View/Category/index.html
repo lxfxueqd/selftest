@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>素材分类列表</title>
+	</head>
+	<body>
+		<extend name="Public/base" />
+
+
+{// 导航}
+<block name="breadcrumb">
+<li class="active">素材分类列表</li>
+</block>
+
+{// 左侧菜单}
+<block name="sidebar">
+	<include file="Public/sidebar" nav="type"/>
+</block>
+
+{// 主体}
+<block name="main">
+<div class="row-fluid">
+	<div class="span6">
+		<div id="nestable" class="dd">
+			<ol class="dd-list">
+				<?php foreach ($category as $key => $value): ?>
+				<li class="dd-item" data-id="{$value.id}">
+					<div class="dd-handle">
+						{$value.name}
+					</div>
+					<ol class="dd-list">
+						<?php foreach ($value['child'] as $kk => $vv): ?>
+						<li class="dd-item" data-id="{$vv.id}">
+							<div class="dd-handle">
+								{$vv.name}
+								<div class="pull-right action-buttons">
+					
+								<a href="javascript:$.sucai.formShow('{:U('Admin/Category/edit', array('id'=>$v['id']))}');" class="blue">
+									0<i class="icon-pencil bigger-130"></i>
+								</a>
+								</div>
+							</div>
+							<ol class="dd-list">
+								
+								<?php foreach ($vv['child'] as $k => $v): ?>
+								<li class="dd-item" data-id="{$v.id}">
+									<div class="dd-handle">
+										{$v.name}
+										<div class="pull-right action-buttons">
+					
+											<a href="javascript:$.sucai.formShow('{:U('Admin/Category/edit', array('id'=>$v['id']))}');" class="blue">
+												<i class="icon-pencil bigger-130"></i>
+											</a>
+										</div>
+									</div>
+								</li>
+								<?php endforeach ?>
+							</ol>
+						</li>
+						<?php endforeach ?>
+					</ol>
+				</li>
+				<?php endforeach ?>
+			</ol>
+		</div>
+	</div>
+	<div class="span1">
+		<a class="btn btn-app btn-success" href="javascript:$.sucai.formShow('{:U('Admin/Category/add')}');">
+			<i class="icon-refresh bigger-230"></i>添加分类
+		</a>
+	</div>
+</div>
+</block>
+
+{// js}
+<block name="js">
+	<script src="__PUBLIC__/Adminstyle/js/jquery.dataTables.min.js"></script>
+	<script src="__PUBLIC__/Adminstyle/js/jquery.dataTables.bootstrap.js"></script>
+	<script src="__PUBLIC__/Adminstyle/js/jquery.nestable.min.js"></script>
+	<script src="__PUBLIC__/Adminstyle/sucai/sucai.global.js"></script>
+	<script src="__PUBLIC__/Adminstyle/sucai/sucai.element.js"></script>
+	<script type="text/javascript">
+			jQuery(function($) {
+
+				$('.dd').nestable();
+			
+				$('.dd-handle a').on('mousedown', function(e){
+					e.stopPropagation();
+				});
+
+
+				$.extend({
+
+					action : function(url, obj)
+					{
+						var obj = $(obj).parents('form');
+
+						$.ajax({
+							url : url,
+							type : 'post',
+							data : obj.serialize(),
+							success : function(res)
+							{
+								$.sucai.alert(res.msg, res.code, 2);
+								$.sucai.formHide();
+								location.reload();
+							}
+						});
+					}
+				});
+			})
+		</script>
+</block>
+	</body>
+</html>

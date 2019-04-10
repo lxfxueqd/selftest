@@ -1,0 +1,12 @@
+[ 2019-04-05T11:33:53+08:00 ] ::1 /selftest/index.php/Exam/doExamCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002281s ]
+ERR: 无法加载模块:Exam
+
+[ 2019-04-05T11:34:01+08:00 ] ::1 /selftest/index.php/Exam/doExamCreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+ERR: 无法加载模块:Exam
+

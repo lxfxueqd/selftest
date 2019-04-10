@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>上传文件</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/style3.css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="File Upload widget Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="__PUBLIC__/images/3.png"/>
+    <!-- Font Awesome -->
+    <link href="__PUBLIC__/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css?v=1"  crossorigin="anonymous">
+    <!-- Slick slider -->
+    <link href="__PUBLIC__/css/slick.css" rel="stylesheet">
+    <!-- Gallery Lightbox -->
+    <link href="__PUBLIC__/css/magnific-popup.css" rel="stylesheet">
+    <!-- Skills Circle CSS  -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/circlebars@1.0.3/dist/circle.css">
+
+
+    <!-- Main Style -->
+    <link href="__PUBLIC__/css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Google Fonts Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,500i,600,700" rel="stylesheet">
+    <!-- Google Fonts Open sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!--START SCROLL TOP BUTTON -->
+<a class="scrollToTop" href="#">
+    <i class="fa fa-angle-up"></i>
+</a>
+<!-- END SCROLL TOP BUTTON -->
+
+<!-- Start Header -->
+<header id="mu-hero">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light mu-navbar">
+            <!-- Text based logo -->
+            <a class="navbar-brand mu-logo" href="index.html"><span>计算机通识课程在线自测平台</span></a>
+            <!-- image based logo -->
+            <!-- <a class="navbar-brand mu-logo" href="index.html"><img src="__PUBLIC__/images/logo.png" alt="logo"></a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mu-navbar-nav">
+                    <li class="nav-item">
+                        <a href="{:U('Home/Index/index')}">首页</a>
+                    </li>
+                    <?php if(!$_SESSION['user']):?>
+                    <li class="nav-item"><a href="{:U('Home/Index/login')}">登录</a></li>
+                    <li class="nav-item active"><a href="{:U('Home/Index/register')}">注册</a></li>
+                    <?php endif; ?>
+                    <?php if($_SESSION['user']['type'] == 2):?>
+                    <li class="nav-item dropdown active">
+                        <a class="dropdown-toggle" href="{:U('Home/Question/index')}" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            题库
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{:U('Home/Question/index')}">题目列表</a>
+                            <a class="dropdown-item" href="{:U('Home/Question/enterQuestion')}">上传题目</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="{:U('Home/Paper/index')}" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            试卷管理
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{:U('Home/Paper/index')}">试卷列表</a>
+                            <a class="dropdown-item" href="{:U('Home/Paper/paperCreate')}">添加试卷</a>
+                            <a class="dropdown-item" href="{:U('Home/Paper/index')}">删除试卷</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="{:U('Home/Exam/index')}" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            考试安排
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{:U('Home/Exam/index')}">考试列表</a>
+                            <a class="dropdown-item" href="{:U('Home/Exam/examCreate')}">新增考试</a>
+                            <a class="dropdown-item" href="{:U('Home/Exam/index')}">删除考试</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle" href="{:U('Home/Grade/index')}" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            成绩一览
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{:U('Home/Grade/index')}">成绩列表</a>
+                            <a class="dropdown-item" href="{:U('Home/Grade/index')}">修改成绩</a>
+                            <a class="dropdown-item" href="{:U('Home/Grade/index')}">生成成绩单</a>
+                        </div>
+                    </li>
+                    <li class="nav-item "><a href="{:U('Home/User/teaUser')}">个人中心</a></li>
+                    <?php endif; ?>
+                    <?php if($_SESSION['user']['type'] == 1):?>
+                    <li class="nav-item"><a href="{:U('Home/Online/index')}">在线考试</a></li>
+                    <li class="nav-item"><a href="{:U('Home/Test/index')}">在线练习</a></li>
+                    <li class="nav-item"><a href="{:U('Home/Grade/index')}">查看成绩</a></li>
+                    <li class="nav-item"><a href="{:U('Home/User/index')}">个人中心</a></li>
+                    <li class="nav-item "><a href="{:U('Home/Login/logout')}">退出</a></li>
+                    <?php endif; ?>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<div class="agile-its">
+    <div class="w3layouts">
+        <div class="photos-upload-view">
+            <form id="upload" action="index.html" method="POST" enctype="multipart/form-data">
+                <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+                <div class="agileinfo">
+                    <input type="submit" class="choose" value="选择文件...">
+                    <h3>或者</h3>
+                    <input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+                    <div id="filedrag">拖放文件到这...</div>
+                </div>
+            </form>
+        </div>
+        <div class="clearfix"></div>
+        <script src="__PUBLIC__/js/filedrag.js"></script>
+
+
+    </div>
+</div>
+</body>

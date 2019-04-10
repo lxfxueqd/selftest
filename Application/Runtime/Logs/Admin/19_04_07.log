@@ -1,0 +1,289 @@
+[ 2019-04-07T23:48:54+08:00 ] ::1 /selftest/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+
+[ 2019-04-07T23:49:29+08:00 ] ::1 /selftest/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+
+[ 2019-04-07T23:49:42+08:00 ] ::1 /selftest/index.php/Admin/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+
+[ 2019-04-07T23:49:44+08:00 ] ::1 /selftest/index.php/Admin/Exam/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+
+[ 2019-04-07T23:49:47+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+
+[ 2019-04-07T23:49:49+08:00 ] ::1 /selftest/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+
+[ 2019-04-07T23:49:51+08:00 ] ::1 /selftest/index.php/Admin/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+
+[ 2019-04-07T23:49:55+08:00 ] ::1 /selftest/index.php/Admin/Paper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+
+[ 2019-04-07T23:49:58+08:00 ] ::1 /selftest/index.php/Admin/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+
+[ 2019-04-07T23:50:02+08:00 ] ::1 /selftest/index.php/Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+
+[ 2019-04-07T23:50:03+08:00 ] ::1 /selftest/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+
+[ 2019-04-07T23:50:14+08:00 ] ::1 /selftest/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+
+[ 2019-04-07T23:50:21+08:00 ] ::1 /selftest/index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+
+[ 2019-04-07T23:50:22+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+
+[ 2019-04-07T23:50:23+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+
+[ 2019-04-07T23:50:42+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+NOTIC: [8] Undefined variable: arr D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-04-07T23:50:43+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?6556
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+
+[ 2019-04-07T23:50:48+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+NOTIC: [8] Undefined variable: arr D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-04-07T23:50:49+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?1301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+
+[ 2019-04-07T23:50:51+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+
+[ 2019-04-07T23:50:52+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001573s ]
+
+[ 2019-04-07T23:51:00+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002028s ]
+NOTIC: [8] Undefined variable: arr D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-04-07T23:51:01+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?1024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002885s ]
+
+[ 2019-04-07T23:51:05+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+
+[ 2019-04-07T23:51:05+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001542s ]
+
+[ 2019-04-07T23:51:16+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+NOTIC: [8] Undefined variable: arr D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-04-07T23:51:17+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?5244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002824s ]
+
+[ 2019-04-07T23:51:23+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+
+[ 2019-04-07T23:51:26+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+
+[ 2019-04-07T23:51:26+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+
+[ 2019-04-07T23:51:34+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+NOTIC: [8] Undefined variable: arr D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 17 行.
+
+[ 2019-04-07T23:51:35+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?1342
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002253s ]
+
+[ 2019-04-07T23:52:16+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+
+[ 2019-04-07T23:52:17+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+
+[ 2019-04-07T23:52:25+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Admin\Controller\LoginController.class.php on line 16 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_admin_inf` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined variable: username D:\XM\selftest\Application\Admin\Controller\LoginController.class.php 第 29 行.
+SQL: SELECT * FROM `st_admin_inf` WHERE ( sai_username = "" ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2019-04-07T23:52:28+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?6311
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+
+[ 2019-04-07T23:53:10+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+
+[ 2019-04-07T23:53:10+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003504s ]
+
+[ 2019-04-07T23:53:17+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Admin\Controller\LoginController.class.php on line 16 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_admin_inf` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `st_admin_inf` WHERE ( sai_username = "admin" ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-04-07T23:53:18+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?4887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+
+[ 2019-04-07T23:54:56+08:00 ] ::1 /selftest/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+
+[ 2019-04-07T23:54:56+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+
+[ 2019-04-07T23:55:01+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?8187
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+
+[ 2019-04-07T23:55:06+08:00 ] ::1 /selftest/index.php/Admin/Login/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\XM\selftest\Application\Admin\Controller\LoginController.class.php on line 16 and defined D:\XM\selftest\ThinkPHP\Common\functions.php 第 303 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 306 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 313 行.
+NOTIC: [8] Undefined variable: name D:\XM\selftest\ThinkPHP\Common\functions.php 第 376 行.
+SQL: SHOW COLUMNS FROM `st_admin_inf` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `st_admin_inf` WHERE ( sai_username = "admin" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `st_admin_inf` SET `sai_login_ip`='::1',`sai_login_time`='1554652506' WHERE `sai_admin_id` = 1900000001 [ RunTime:0.0023s ]
+
+[ 2019-04-07T23:55:06+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+
+[ 2019-04-07T23:55:06+08:00 ] ::1 /selftest/index.php/Admin/Login/verify.html?7422
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+
+[ 2019-04-07T23:57:17+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+
+[ 2019-04-07T23:57:40+08:00 ] ::1 /selftest/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+

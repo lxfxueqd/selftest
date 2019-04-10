@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-2.0.3.min.js"></script>
+    <title>试卷更新页</title>
+</head>
+<body>
+<h5>试卷创建界面</h5>
+<form id="loginForm"  method="post" onsubmit="return false">
+   <div> <a>试卷名称：</a><input type="text"  name="paperName" placeholder="试卷名称"/></div>
+    <div> <a>科目：</a><input type="text"  name="subjectId" placeholder="默认无" value="0"/></div>
+    <div> <a>章节：</a><input type="text"  name="chapterId" placeholder="默认无" value="0"/></div>
+    <div> <a>总分：</a><input type="text"  name="grade" placeholder="总分" />
+    <?php foreach ($questKind as $key => $val): ?>
+        <div> <a>{$val.sqk_kind_name}题目数：</a><input type="text"  name="{$val.sqk_kind_id}Counts" placeholder="题目数"/>
+            <a>单题分数：</a><input type="text"  name="{$val.sqk_kind_id}Grade" placeholder="单题分数"/>
+        </div>
+    <?php endforeach ?>
+
+    <input type="submit" value="更新" id="loginSub" />
+</form>
+<p>
+    <a href="{:U('Home/Paper/index')}">返回试卷首页</a>
+</p>
+</body>
+<script type="text/javascript">
+    jQuery(
+        $('#loginSub').click(function(){
+            var data = $('form').serializeArray();
+            $.ajax({
+                type:'post',
+                url:'{:U(\'Paper/doPaperUpdate\')}',
+                data:data,
+                async:false,
+                success:function (response) {
+                    if(response.code != '1'){
+                        alert(response.msg);
+                    }else if(response.code == '1') {
+                        window.location.href=response.url;
+                    }
+                },
+                error:function (response) {
+                    alert('试卷创建异常！');
+
+                }
+            })
+        })
+    )
+</script>
+</body>
+</html>
